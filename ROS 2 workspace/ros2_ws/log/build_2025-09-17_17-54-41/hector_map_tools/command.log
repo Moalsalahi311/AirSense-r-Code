@@ -1,0 +1,2 @@
+Invoking command in '/home/mohammed/ros2_ws/build/hector_map_tools': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_map_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_map_tools
+Invoked command in '/home/mohammed/ros2_ws/build/hector_map_tools' returned '1': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_map_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_map_tools

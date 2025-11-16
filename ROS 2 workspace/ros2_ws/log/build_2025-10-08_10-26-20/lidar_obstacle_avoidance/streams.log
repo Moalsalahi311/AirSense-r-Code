@@ -1,0 +1,24 @@
+[6.426s] Invoking command in '/home/mohammed/ros2_ws/src/lidar_obstacle_avoidance': PYTHONPATH=/home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_obstacle_avoidance build --build-base /home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/build install --record /home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/install.log --single-version-externally-managed install_data
+[8.010s] running egg_info
+[8.013s] writing ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/PKG-INFO
+[8.016s] writing dependency_links to ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/dependency_links.txt
+[8.018s] writing entry points to ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/entry_points.txt
+[8.018s] writing requirements to ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/requires.txt
+[8.020s] writing top-level names to ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/top_level.txt
+[8.038s] reading manifest file '../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/SOURCES.txt'
+[8.042s] writing manifest file '../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/SOURCES.txt'
+[8.042s] running build
+[8.043s] running build_py
+[8.048s] copying lidar_obstacle_avoidance/lidar_obstacle_avoidance_node.py -> /home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/build/lib/lidar_obstacle_avoidance
+[8.051s] running install
+[8.054s] running install_lib
+[8.062s] copying /home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/build/lib/lidar_obstacle_avoidance/lidar_obstacle_avoidance_node.py -> /home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages/lidar_obstacle_avoidance
+[8.064s] byte-compiling /home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages/lidar_obstacle_avoidance/lidar_obstacle_avoidance_node.py to lidar_obstacle_avoidance_node.cpython-310.pyc
+[8.070s] running install_data
+[8.078s] running install_egg_info
+[8.094s] removing '/home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages/lidar_obstacle_avoidance-0.0.0-py3.10.egg-info' (and everything under it)
+[8.098s] Copying ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info to /home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages/lidar_obstacle_avoidance-0.0.0-py3.10.egg-info
+[8.109s] running install_scripts
+[8.261s] Installing lidar_obstacle_avoidance_node script to /home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/lidar_obstacle_avoidance
+[8.270s] writing list of installed files to '/home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/install.log'
+[8.569s] Invoked command in '/home/mohammed/ros2_ws/src/lidar_obstacle_avoidance' returned '0': PYTHONPATH=/home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_obstacle_avoidance build --build-base /home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/build install --record /home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/install.log --single-version-externally-managed install_data

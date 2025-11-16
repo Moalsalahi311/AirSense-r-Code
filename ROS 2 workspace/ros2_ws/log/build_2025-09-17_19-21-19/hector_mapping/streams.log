@@ -1,0 +1,20 @@
+[0.101s] Invoking command in '/home/mohammed/ros2_ws/build/hector_mapping': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_mapping -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_mapping
+[0.342s] -- Configuring incomplete, errors occurred!
+[0.344s] See also "/home/mohammed/ros2_ws/build/hector_mapping/CMakeFiles/CMakeOutput.log".
+[0.345s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.347s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.348s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.349s]   CMake did not find one.
+[0.354s] 
+[0.354s]   Could not find a package configuration file provided by "catkin" with any
+[0.355s]   of the following names:
+[0.355s] 
+[0.356s]     catkinConfig.cmake
+[0.356s]     catkin-config.cmake
+[0.357s] 
+[0.357s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.358s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.358s]   provides a separate development package or SDK, be sure it has been
+[0.361s]   installed.
+[0.361s] 
+[0.362s] [0m

@@ -1,0 +1,21 @@
+[0.118s] Invoking command in '/home/mohammed/ros2_ws/build/hector_nav_msgs': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_nav_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_nav_msgs
+[0.458s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.458s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.459s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.459s]   CMake did not find one.
+[0.460s] 
+[0.460s]   Could not find a package configuration file provided by "catkin" with any
+[0.461s]   of the following names:
+[0.461s] 
+[0.462s]     catkinConfig.cmake
+[0.462s]     catkin-config.cmake
+[0.462s] 
+[0.463s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.463s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.463s]   provides a separate development package or SDK, be sure it has been
+[0.464s]   installed.
+[0.464s] 
+[0.465s] [0m
+[0.474s] -- Configuring incomplete, errors occurred!
+[0.475s] See also "/home/mohammed/ros2_ws/build/hector_nav_msgs/CMakeFiles/CMakeOutput.log".
+[0.524s] Invoked command in '/home/mohammed/ros2_ws/build/hector_nav_msgs' returned '1': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_nav_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_nav_msgs

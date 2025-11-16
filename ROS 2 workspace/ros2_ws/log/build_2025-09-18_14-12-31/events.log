@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.002080] (imu_publisher) JobQueued: {'identifier': 'imu_publisher', 'dependencies': OrderedDict()}
+[0.002917] (imu_publisher) JobStarted: {'identifier': 'imu_publisher'}
+[0.098625] (-) TimerEvent: {}
+[0.199688] (-) TimerEvent: {}
+[0.300552] (-) TimerEvent: {}
+[0.401530] (-) TimerEvent: {}
+[0.502699] (-) TimerEvent: {}
+[0.603598] (-) TimerEvent: {}
+[0.704397] (-) TimerEvent: {}
+[0.805179] (-) TimerEvent: {}
+[0.905945] (-) TimerEvent: {}
+[1.006701] (-) TimerEvent: {}
+[1.107560] (-) TimerEvent: {}
+[1.208460] (-) TimerEvent: {}
+[1.310039] (-) TimerEvent: {}
+[1.414694] (-) TimerEvent: {}
+[1.517240] (-) TimerEvent: {}
+[1.618680] (-) TimerEvent: {}
+[1.719955] (-) TimerEvent: {}
+[1.821059] (-) TimerEvent: {}
+[1.922241] (-) TimerEvent: {}
+[2.023407] (-) TimerEvent: {}
+[2.125115] (-) TimerEvent: {}
+[2.226823] (-) TimerEvent: {}
+[2.330605] (-) TimerEvent: {}
+[2.433315] (-) TimerEvent: {}
+[2.535831] (-) TimerEvent: {}
+[2.638442] (-) TimerEvent: {}
+[2.739800] (-) TimerEvent: {}
+[2.841583] (-) TimerEvent: {}
+[2.943738] (-) TimerEvent: {}
+[3.044739] (-) TimerEvent: {}
+[3.145884] (-) TimerEvent: {}
+[3.247014] (-) TimerEvent: {}
+[3.347896] (-) TimerEvent: {}
+[3.448905] (-) TimerEvent: {}
+[3.549820] (-) TimerEvent: {}
+[3.650682] (-) TimerEvent: {}
+[3.751737] (-) TimerEvent: {}
+[3.852793] (-) TimerEvent: {}
+[3.953442] (-) TimerEvent: {}
+[4.054083] (-) TimerEvent: {}
+[4.154798] (-) TimerEvent: {}
+[4.256102] (-) TimerEvent: {}
+[4.357851] (-) TimerEvent: {}
+[4.459041] (-) TimerEvent: {}
+[4.560233] (-) TimerEvent: {}
+[4.661827] (-) TimerEvent: {}
+[4.763886] (-) TimerEvent: {}
+[4.865791] (-) TimerEvent: {}
+[4.966683] (-) TimerEvent: {}
+[5.067680] (-) TimerEvent: {}
+[5.168645] (-) TimerEvent: {}
+[5.270616] (-) TimerEvent: {}
+[5.297353] (imu_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu_publisher', 'build', '--build-base', '/home/mohammed/ros2_ws/build/imu_publisher/build', 'install', '--record', '/home/mohammed/ros2_ws/build/imu_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohammed/ros2_ws/src/imu_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohammed', 'LC_TIME': 'ar_QA.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mohammed', 'OLDPWD': '/home/mohammed', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_QA.UTF-8', 'SYSTEMD_EXEC_PID': '1149', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mohammed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohammed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mohammed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammed-desktop:@/tmp/.ICE-unix/1126,unix/mohammed-desktop:/tmp/.ICE-unix/1126', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_QA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/870a5841_8cf7_473f_878d_4ea771df0d23', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_QA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F7OMC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_QA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_QA.UTF-8', 'LC_IDENTIFICATION': 'ar_QA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohammed/ros2_ws/build/imu_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohammed/ros2_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_QA.UTF-8', 'LC_PAPER': 'ar_QA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.370803] (-) TimerEvent: {}
+[5.471902] (-) TimerEvent: {}
+[5.574906] (-) TimerEvent: {}
+[5.677458] (-) TimerEvent: {}
+[5.778553] (-) TimerEvent: {}
+[5.882120] (-) TimerEvent: {}
+[5.983215] (-) TimerEvent: {}
+[6.084477] (-) TimerEvent: {}
+[6.185850] (-) TimerEvent: {}
+[6.287266] (-) TimerEvent: {}
+[6.388729] (-) TimerEvent: {}
+[6.490068] (-) TimerEvent: {}
+[6.591320] (-) TimerEvent: {}
+[6.692481] (-) TimerEvent: {}
+[6.793837] (-) TimerEvent: {}
+[6.895049] (-) TimerEvent: {}
+[6.996386] (-) TimerEvent: {}
+[7.097772] (-) TimerEvent: {}
+[7.198797] (-) TimerEvent: {}
+[7.299701] (-) TimerEvent: {}
+[7.400540] (-) TimerEvent: {}
+[7.501407] (-) TimerEvent: {}
+[7.537069] (imu_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[7.542426] (imu_publisher) StdoutLine: {'line': b'writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO\n'}
+[7.544044] (imu_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt\n'}
+[7.546056] (imu_publisher) StdoutLine: {'line': b'writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt\n'}
+[7.547609] (imu_publisher) StdoutLine: {'line': b'writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt\n'}
+[7.548626] (imu_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt\n'}
+[7.559043] (imu_publisher) StdoutLine: {'line': b"reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[7.564747] (imu_publisher) StdoutLine: {'line': b"writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[7.565666] (imu_publisher) StdoutLine: {'line': b'running build\n'}
+[7.566310] (imu_publisher) StdoutLine: {'line': b'running build_py\n'}
+[7.567821] (imu_publisher) StdoutLine: {'line': b'running install\n'}
+[7.569579] (imu_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[7.576672] (imu_publisher) StdoutLine: {'line': b'running install_data\n'}
+[7.577959] (imu_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.587587] (imu_publisher) StdoutLine: {'line': b"removing '/home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.589676] (imu_publisher) StdoutLine: {'line': b'Copying ../../build/imu_publisher/imu_publisher.egg-info to /home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher-0.0.0-py3.10.egg-info\n'}
+[7.599340] (imu_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[7.601591] (-) TimerEvent: {}
+[7.702511] (-) TimerEvent: {}
+[7.704766] (imu_publisher) StdoutLine: {'line': b'Installing imu_node script to /home/mohammed/ros2_ws/install/imu_publisher/lib/imu_publisher\n'}
+[7.706795] (imu_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/mohammed/ros2_ws/build/imu_publisher/install.log'\n"}
+[7.803188] (-) TimerEvent: {}
+[7.904852] (-) TimerEvent: {}
+[7.912372] (imu_publisher) CommandEnded: {'returncode': 0}
+[8.005077] (-) TimerEvent: {}
+[8.019736] (imu_publisher) JobEnded: {'identifier': 'imu_publisher', 'rc': 0}
+[8.023752] (-) EventReactorShutdown: {}

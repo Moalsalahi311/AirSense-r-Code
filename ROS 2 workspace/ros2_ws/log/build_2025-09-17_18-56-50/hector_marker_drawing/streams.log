@@ -1,0 +1,21 @@
+[0.115s] Invoking command in '/home/mohammed/ros2_ws/build/hector_marker_drawing': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_marker_drawing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_marker_drawing
+[0.483s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.484s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.485s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.486s]   CMake did not find one.
+[0.487s] 
+[0.488s]   Could not find a package configuration file provided by "catkin" with any
+[0.489s]   of the following names:
+[0.490s] 
+[0.491s]     catkinConfig.cmake
+[0.491s]     catkin-config.cmake
+[0.492s] 
+[0.493s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.495s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.496s]   provides a separate development package or SDK, be sure it has been
+[0.496s]   installed.
+[0.497s] 
+[0.498s] [0m
+[0.499s] -- Configuring incomplete, errors occurred!
+[0.499s] See also "/home/mohammed/ros2_ws/build/hector_marker_drawing/CMakeFiles/CMakeOutput.log".
+[0.532s] Invoked command in '/home/mohammed/ros2_ws/build/hector_marker_drawing' returned '1': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_marker_drawing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_marker_drawing

@@ -1,0 +1,21 @@
+[6.354s] Invoking command in '/home/mohammed/ros2_ws/src/motor_driver': PYTHONPATH=/home/mohammed/ros2_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/mohammed/ros2_ws/build/motor_driver/build install --record /home/mohammed/ros2_ws/build/motor_driver/install.log --single-version-externally-managed install_data
+[7.930s] running egg_info
+[7.934s] writing ../../build/motor_driver/motor_driver.egg-info/PKG-INFO
+[7.937s] writing dependency_links to ../../build/motor_driver/motor_driver.egg-info/dependency_links.txt
+[7.938s] writing entry points to ../../build/motor_driver/motor_driver.egg-info/entry_points.txt
+[7.939s] writing requirements to ../../build/motor_driver/motor_driver.egg-info/requires.txt
+[7.940s] writing top-level names to ../../build/motor_driver/motor_driver.egg-info/top_level.txt
+[7.950s] reading manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[7.956s] writing manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[7.957s] running build
+[7.958s] running build_py
+[7.964s] running install
+[7.969s] running install_lib
+[7.975s] running install_data
+[7.980s] running install_egg_info
+[8.000s] removing '/home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[8.001s] Copying ../../build/motor_driver/motor_driver.egg-info to /home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info
+[8.011s] running install_scripts
+[8.124s] Installing motor_driver_node script to /home/mohammed/ros2_ws/install/motor_driver/lib/motor_driver
+[8.127s] writing list of installed files to '/home/mohammed/ros2_ws/build/motor_driver/install.log'
+[8.372s] Invoked command in '/home/mohammed/ros2_ws/src/motor_driver' returned '0': PYTHONPATH=/home/mohammed/ros2_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/mohammed/ros2_ws/build/motor_driver/build install --record /home/mohammed/ros2_ws/build/motor_driver/install.log --single-version-externally-managed install_data

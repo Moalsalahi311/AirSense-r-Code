@@ -1,0 +1,1 @@
+Invoking command in '/home/mohammed/ros2_ws/build/hector_mapping': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_mapping -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_mapping

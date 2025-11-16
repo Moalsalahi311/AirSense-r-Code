@@ -1,0 +1,33 @@
+[0.100s] Invoking command in '/home/mohammed/ros2_ws/build/hector_nav_msgs': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_nav_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_nav_msgs
+[1.561s] -- The C compiler identification is GNU 11.4.0
+[2.410s] -- The CXX compiler identification is GNU 11.4.0
+[2.469s] -- Detecting C compiler ABI info
+[2.975s] -- Detecting C compiler ABI info - done
+[3.006s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.008s] -- Detecting C compile features
+[3.009s] -- Detecting C compile features - done
+[3.035s] -- Detecting CXX compiler ABI info
+[3.615s] -- Detecting CXX compiler ABI info - done
+[3.679s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.682s] -- Detecting CXX compile features
+[3.685s] -- Detecting CXX compile features - done
+[3.938s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[3.939s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.940s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.940s]   CMake did not find one.
+[3.941s] 
+[3.941s]   Could not find a package configuration file provided by "catkin" with any
+[3.942s]   of the following names:
+[3.943s] 
+[3.943s]     catkinConfig.cmake
+[3.944s]     catkin-config.cmake
+[3.945s] 
+[3.946s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.946s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.947s]   provides a separate development package or SDK, be sure it has been
+[3.947s]   installed.
+[3.948s] 
+[3.961s] [0m
+[3.962s] -- Configuring incomplete, errors occurred!
+[3.963s] See also "/home/mohammed/ros2_ws/build/hector_nav_msgs/CMakeFiles/CMakeOutput.log".
+[3.994s] Invoked command in '/home/mohammed/ros2_ws/build/hector_nav_msgs' returned '1': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_nav_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_nav_msgs

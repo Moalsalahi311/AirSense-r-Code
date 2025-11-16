@@ -1,0 +1,32 @@
+[0.105s] Invoking command in '/home/mohammed/ros2_ws/build/hector_mapping': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_mapping -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_mapping
+[1.517s] -- The C compiler identification is GNU 11.4.0
+[2.382s] -- The CXX compiler identification is GNU 11.4.0
+[2.430s] -- Detecting C compiler ABI info
+[2.921s] -- Detecting C compiler ABI info - done
+[2.954s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.956s] -- Detecting C compile features
+[2.961s] -- Detecting C compile features - done
+[2.980s] -- Detecting CXX compiler ABI info
+[3.689s] -- Detecting CXX compiler ABI info - done
+[3.724s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.726s] -- Detecting CXX compile features
+[3.729s] -- Detecting CXX compile features - done
+[3.961s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[3.966s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.967s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.969s]   CMake did not find one.
+[3.969s] 
+[3.971s]   Could not find a package configuration file provided by "catkin" with any
+[3.972s]   of the following names:
+[3.973s] 
+[3.974s]     catkinConfig.cmake
+[3.975s]     catkin-config.cmake
+[3.977s] 
+[3.978s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.978s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.979s]   provides a separate development package or SDK, be sure it has been
+[3.980s]   installed.
+[3.980s] 
+[3.981s] [0m
+[3.981s] -- Configuring incomplete, errors occurred!
+[3.982s] See also "/home/mohammed/ros2_ws/build/hector_mapping/CMakeFiles/CMakeOutput.log".

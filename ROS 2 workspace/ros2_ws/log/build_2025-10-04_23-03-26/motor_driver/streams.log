@@ -1,0 +1,25 @@
+[6.164s] Invoking command in '/home/mohammed/ros2_ws/src/motor_driver': PYTHONPATH=/home/mohammed/ros2_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/mohammed/ros2_ws/build/motor_driver/build install --record /home/mohammed/ros2_ws/build/motor_driver/install.log --single-version-externally-managed install_data
+[8.565s] running egg_info
+[8.576s] writing ../../build/motor_driver/motor_driver.egg-info/PKG-INFO
+[8.578s] writing dependency_links to ../../build/motor_driver/motor_driver.egg-info/dependency_links.txt
+[8.580s] writing entry points to ../../build/motor_driver/motor_driver.egg-info/entry_points.txt
+[8.582s] writing requirements to ../../build/motor_driver/motor_driver.egg-info/requires.txt
+[8.590s] writing top-level names to ../../build/motor_driver/motor_driver.egg-info/top_level.txt
+[8.610s] reading manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[8.631s] writing manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[8.632s] running build
+[8.644s] running build_py
+[8.653s] copying motor_driver/motor_driver_node.py -> /home/mohammed/ros2_ws/build/motor_driver/build/lib/motor_driver
+[8.654s] running install
+[8.671s] running install_lib
+[8.694s] copying /home/mohammed/ros2_ws/build/motor_driver/build/lib/motor_driver/motor_driver_node.py -> /home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[8.713s] byte-compiling /home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver/motor_driver_node.py to motor_driver_node.cpython-310.pyc
+[8.715s] running install_data
+[8.718s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (motor_driver_node.py, line 20)
+[8.724s] running install_egg_info
+[8.783s] removing '/home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[8.796s] Copying ../../build/motor_driver/motor_driver.egg-info to /home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info
+[8.837s] running install_scripts
+[9.137s] Installing motor_driver_node script to /home/mohammed/ros2_ws/install/motor_driver/lib/motor_driver
+[9.142s] writing list of installed files to '/home/mohammed/ros2_ws/build/motor_driver/install.log'
+[9.501s] Invoked command in '/home/mohammed/ros2_ws/src/motor_driver' returned '0': PYTHONPATH=/home/mohammed/ros2_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/mohammed/ros2_ws/build/motor_driver/build install --record /home/mohammed/ros2_ws/build/motor_driver/install.log --single-version-externally-managed install_data

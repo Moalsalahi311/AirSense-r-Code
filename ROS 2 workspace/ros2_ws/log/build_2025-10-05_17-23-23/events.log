@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.001715] (imu_publisher) JobQueued: {'identifier': 'imu_publisher', 'dependencies': OrderedDict()}
+[0.001850] (lidar_obstacle_avoidance) JobQueued: {'identifier': 'lidar_obstacle_avoidance', 'dependencies': OrderedDict()}
+[0.001935] (motor_driver) JobQueued: {'identifier': 'motor_driver', 'dependencies': OrderedDict()}
+[0.002015] (imu_publisher) JobStarted: {'identifier': 'imu_publisher'}
+[0.066669] (lidar_obstacle_avoidance) JobStarted: {'identifier': 'lidar_obstacle_avoidance'}
+[0.099159] (-) TimerEvent: {}
+[0.101955] (motor_driver) JobStarted: {'identifier': 'motor_driver'}
+[0.199474] (-) TimerEvent: {}
+[0.300238] (-) TimerEvent: {}
+[0.400947] (-) TimerEvent: {}
+[0.501791] (-) TimerEvent: {}
+[0.602548] (-) TimerEvent: {}
+[0.703212] (-) TimerEvent: {}
+[0.803972] (-) TimerEvent: {}
+[0.904731] (-) TimerEvent: {}
+[1.005436] (-) TimerEvent: {}
+[1.106193] (-) TimerEvent: {}
+[1.206919] (-) TimerEvent: {}
+[1.307744] (-) TimerEvent: {}
+[1.408904] (-) TimerEvent: {}
+[1.509695] (-) TimerEvent: {}
+[1.610478] (-) TimerEvent: {}
+[1.711157] (-) TimerEvent: {}
+[1.811868] (-) TimerEvent: {}
+[1.912621] (-) TimerEvent: {}
+[2.013364] (-) TimerEvent: {}
+[2.114022] (-) TimerEvent: {}
+[2.214727] (-) TimerEvent: {}
+[2.315439] (-) TimerEvent: {}
+[2.416231] (-) TimerEvent: {}
+[2.516970] (-) TimerEvent: {}
+[2.617808] (-) TimerEvent: {}
+[2.719128] (-) TimerEvent: {}
+[2.819925] (-) TimerEvent: {}
+[2.920725] (-) TimerEvent: {}
+[3.021510] (-) TimerEvent: {}
+[3.122240] (-) TimerEvent: {}
+[3.222925] (-) TimerEvent: {}
+[3.323726] (-) TimerEvent: {}
+[3.424479] (-) TimerEvent: {}
+[3.525149] (-) TimerEvent: {}
+[3.625811] (-) TimerEvent: {}
+[3.726565] (-) TimerEvent: {}
+[3.827350] (-) TimerEvent: {}
+[3.928420] (-) TimerEvent: {}
+[4.029424] (-) TimerEvent: {}
+[4.134383] (-) TimerEvent: {}
+[4.235477] (-) TimerEvent: {}
+[4.337299] (-) TimerEvent: {}
+[4.438408] (-) TimerEvent: {}
+[4.539599] (-) TimerEvent: {}
+[4.640867] (-) TimerEvent: {}
+[4.742203] (-) TimerEvent: {}
+[4.843269] (-) TimerEvent: {}
+[4.944439] (-) TimerEvent: {}
+[5.046104] (-) TimerEvent: {}
+[5.158537] (-) TimerEvent: {}
+[5.260385] (-) TimerEvent: {}
+[5.362001] (-) TimerEvent: {}
+[5.463598] (-) TimerEvent: {}
+[5.564829] (-) TimerEvent: {}
+[5.666230] (-) TimerEvent: {}
+[5.767913] (-) TimerEvent: {}
+[5.868868] (-) TimerEvent: {}
+[5.969856] (-) TimerEvent: {}
+[6.071515] (-) TimerEvent: {}
+[6.172735] (-) TimerEvent: {}
+[6.275126] (-) TimerEvent: {}
+[6.375943] (-) TimerEvent: {}
+[6.477327] (-) TimerEvent: {}
+[6.580722] (-) TimerEvent: {}
+[6.684506] (-) TimerEvent: {}
+[6.788472] (-) TimerEvent: {}
+[6.811822] (lidar_obstacle_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_obstacle_avoidance', 'build', '--build-base', '/home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/build', 'install', '--record', '/home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohammed/ros2_ws/src/lidar_obstacle_avoidance', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohammed', 'LC_TIME': 'ar_QA.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mohammed', 'OLDPWD': '/home/mohammed/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_QA.UTF-8', 'SYSTEMD_EXEC_PID': '1164', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mohammed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohammed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mohammed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammed-desktop:@/tmp/.ICE-unix/1137,unix/mohammed-desktop:/tmp/.ICE-unix/1137', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_QA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/59ba5bde_4808_4c3e_a55b_ac1f688f5aa9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_QA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UVD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_QA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_QA.UTF-8', 'LC_IDENTIFICATION': 'ar_QA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohammed/ros2_ws/build/lidar_obstacle_avoidance', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_QA.UTF-8', 'LC_PAPER': 'ar_QA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.843065] (motor_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_driver', 'build', '--build-base', '/home/mohammed/ros2_ws/build/motor_driver/build', 'install', '--record', '/home/mohammed/ros2_ws/build/motor_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohammed/ros2_ws/src/motor_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohammed', 'LC_TIME': 'ar_QA.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mohammed', 'OLDPWD': '/home/mohammed/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_QA.UTF-8', 'SYSTEMD_EXEC_PID': '1164', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mohammed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohammed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mohammed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammed-desktop:@/tmp/.ICE-unix/1137,unix/mohammed-desktop:/tmp/.ICE-unix/1137', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_QA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/59ba5bde_4808_4c3e_a55b_ac1f688f5aa9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_QA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UVD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_QA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_QA.UTF-8', 'LC_IDENTIFICATION': 'ar_QA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohammed/ros2_ws/build/motor_driver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohammed/ros2_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_QA.UTF-8', 'LC_PAPER': 'ar_QA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.857389] (imu_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu_publisher', 'build', '--build-base', '/home/mohammed/ros2_ws/build/imu_publisher/build', 'install', '--record', '/home/mohammed/ros2_ws/build/imu_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohammed/ros2_ws/src/imu_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohammed', 'LC_TIME': 'ar_QA.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mohammed', 'OLDPWD': '/home/mohammed/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_QA.UTF-8', 'SYSTEMD_EXEC_PID': '1164', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mohammed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohammed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mohammed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammed-desktop:@/tmp/.ICE-unix/1137,unix/mohammed-desktop:/tmp/.ICE-unix/1137', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_QA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/59ba5bde_4808_4c3e_a55b_ac1f688f5aa9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_QA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UVD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_QA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_QA.UTF-8', 'LC_IDENTIFICATION': 'ar_QA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohammed/ros2_ws/build/imu_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohammed/ros2_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_QA.UTF-8', 'LC_PAPER': 'ar_QA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.888684] (-) TimerEvent: {}
+[6.992139] (-) TimerEvent: {}
+[7.093163] (-) TimerEvent: {}
+[7.194046] (-) TimerEvent: {}
+[7.294983] (-) TimerEvent: {}
+[7.395931] (-) TimerEvent: {}
+[7.496756] (-) TimerEvent: {}
+[7.597572] (-) TimerEvent: {}
+[7.698519] (-) TimerEvent: {}
+[7.799343] (-) TimerEvent: {}
+[7.900139] (-) TimerEvent: {}
+[8.000954] (-) TimerEvent: {}
+[8.102275] (-) TimerEvent: {}
+[8.203127] (-) TimerEvent: {}
+[8.306248] (-) TimerEvent: {}
+[8.387274] (lidar_obstacle_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[8.388049] (motor_driver) StdoutLine: {'line': b'running egg_info\n'}
+[8.392989] (motor_driver) StdoutLine: {'line': b'writing ../../build/motor_driver/motor_driver.egg-info/PKG-INFO\n'}
+[8.393591] (lidar_obstacle_avoidance) StdoutLine: {'line': b'writing ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/PKG-INFO\n'}
+[8.395391] (lidar_obstacle_avoidance) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/dependency_links.txt\n'}
+[8.396889] (lidar_obstacle_avoidance) StdoutLine: {'line': b'writing entry points to ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/entry_points.txt\n'}
+[8.397884] (lidar_obstacle_avoidance) StdoutLine: {'line': b'writing requirements to ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/requires.txt\n'}
+[8.399161] (lidar_obstacle_avoidance) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/top_level.txt\n'}
+[8.401149] (motor_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_driver/motor_driver.egg-info/dependency_links.txt\n'}
+[8.403734] (motor_driver) StdoutLine: {'line': b'writing entry points to ../../build/motor_driver/motor_driver.egg-info/entry_points.txt\n'}
+[8.406074] (motor_driver) StdoutLine: {'line': b'writing requirements to ../../build/motor_driver/motor_driver.egg-info/requires.txt\n'}
+[8.406740] (-) TimerEvent: {}
+[8.409128] (motor_driver) StdoutLine: {'line': b'writing top-level names to ../../build/motor_driver/motor_driver.egg-info/top_level.txt\n'}
+[8.410209] (lidar_obstacle_avoidance) StdoutLine: {'line': b"reading manifest file '../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[8.415636] (lidar_obstacle_avoidance) StdoutLine: {'line': b"writing manifest file '../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[8.416743] (lidar_obstacle_avoidance) StdoutLine: {'line': b'running build\n'}
+[8.417676] (lidar_obstacle_avoidance) StdoutLine: {'line': b'running build_py\n'}
+[8.419835] (motor_driver) StdoutLine: {'line': b"reading manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'\n"}
+[8.426039] (lidar_obstacle_avoidance) StdoutLine: {'line': b'running install\n'}
+[8.427613] (lidar_obstacle_avoidance) StdoutLine: {'line': b'running install_lib\n'}
+[8.429706] (motor_driver) StdoutLine: {'line': b"writing manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'\n"}
+[8.430635] (motor_driver) StdoutLine: {'line': b'running build\n'}
+[8.431406] (motor_driver) StdoutLine: {'line': b'running build_py\n'}
+[8.437353] (motor_driver) StdoutLine: {'line': b'copying motor_driver/motor_driver_node.py -> /home/mohammed/ros2_ws/build/motor_driver/build/lib/motor_driver\n'}
+[8.439233] (motor_driver) StdoutLine: {'line': b'running install\n'}
+[8.440017] (lidar_obstacle_avoidance) StdoutLine: {'line': b'running install_data\n'}
+[8.441798] (lidar_obstacle_avoidance) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.442941] (motor_driver) StdoutLine: {'line': b'running install_lib\n'}
+[8.452125] (motor_driver) StdoutLine: {'line': b'copying /home/mohammed/ros2_ws/build/motor_driver/build/lib/motor_driver/motor_driver_node.py -> /home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver\n'}
+[8.458193] (lidar_obstacle_avoidance) StdoutLine: {'line': b"removing '/home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages/lidar_obstacle_avoidance-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.459798] (motor_driver) StdoutLine: {'line': b'byte-compiling /home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver/motor_driver_node.py to motor_driver_node.cpython-310.pyc\n'}
+[8.460563] (lidar_obstacle_avoidance) StdoutLine: {'line': b'Copying ../../build/lidar_obstacle_avoidance/lidar_obstacle_avoidance.egg-info to /home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/python3.10/site-packages/lidar_obstacle_avoidance-0.0.0-py3.10.egg-info\n'}
+[8.464770] (imu_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[8.467657] (motor_driver) StdoutLine: {'line': b'running install_data\n'}
+[8.470384] (imu_publisher) StdoutLine: {'line': b'writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO\n'}
+[8.472652] (imu_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt\n'}
+[8.474326] (imu_publisher) StdoutLine: {'line': b'writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt\n'}
+[8.475495] (lidar_obstacle_avoidance) StdoutLine: {'line': b'running install_scripts\n'}
+[8.476215] (imu_publisher) StdoutLine: {'line': b'writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt\n'}
+[8.477129] (imu_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt\n'}
+[8.478623] (motor_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.488514] (imu_publisher) StdoutLine: {'line': b"reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[8.498541] (motor_driver) StdoutLine: {'line': b"removing '/home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.502247] (motor_driver) StdoutLine: {'line': b'Copying ../../build/motor_driver/motor_driver.egg-info to /home/mohammed/ros2_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info\n'}
+[8.504169] (imu_publisher) StdoutLine: {'line': b"writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[8.504966] (imu_publisher) StdoutLine: {'line': b'running build\n'}
+[8.505635] (imu_publisher) StdoutLine: {'line': b'running build_py\n'}
+[8.510708] (imu_publisher) StdoutLine: {'line': b'running install\n'}
+[8.511391] (-) TimerEvent: {}
+[8.518333] (imu_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[8.519118] (motor_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[8.519766] (imu_publisher) StdoutLine: {'line': b'running install_data\n'}
+[8.528377] (imu_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.548307] (imu_publisher) StdoutLine: {'line': b"removing '/home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.551002] (imu_publisher) StdoutLine: {'line': b'Copying ../../build/imu_publisher/imu_publisher.egg-info to /home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher-0.0.0-py3.10.egg-info\n'}
+[8.564950] (imu_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[8.610239] (lidar_obstacle_avoidance) StdoutLine: {'line': b'Installing lidar_obstacle_avoidance_node script to /home/mohammed/ros2_ws/install/lidar_obstacle_avoidance/lib/lidar_obstacle_avoidance\n'}
+[8.611618] (-) TimerEvent: {}
+[8.616089] (lidar_obstacle_avoidance) StdoutLine: {'line': b"writing list of installed files to '/home/mohammed/ros2_ws/build/lidar_obstacle_avoidance/install.log'\n"}
+[8.661759] (motor_driver) StdoutLine: {'line': b'Installing motor_driver_node script to /home/mohammed/ros2_ws/install/motor_driver/lib/motor_driver\n'}
+[8.675139] (motor_driver) StdoutLine: {'line': b"writing list of installed files to '/home/mohammed/ros2_ws/build/motor_driver/install.log'\n"}
+[8.711987] (-) TimerEvent: {}
+[8.757187] (imu_publisher) StdoutLine: {'line': b'Installing imu_node script to /home/mohammed/ros2_ws/install/imu_publisher/lib/imu_publisher\n'}
+[8.767213] (imu_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/mohammed/ros2_ws/build/imu_publisher/install.log'\n"}
+[8.818576] (-) TimerEvent: {}
+[8.920220] (lidar_obstacle_avoidance) CommandEnded: {'returncode': 0}
+[8.924796] (-) TimerEvent: {}
+[9.028427] (-) TimerEvent: {}
+[9.054384] (lidar_obstacle_avoidance) JobEnded: {'identifier': 'lidar_obstacle_avoidance', 'rc': 0}
+[9.062203] (motor_driver) CommandEnded: {'returncode': 0}
+[9.101382] (motor_driver) JobEnded: {'identifier': 'motor_driver', 'rc': 0}
+[9.104075] (imu_publisher) CommandEnded: {'returncode': 0}
+[9.128701] (-) TimerEvent: {}
+[9.145027] (imu_publisher) JobEnded: {'identifier': 'imu_publisher', 'rc': 0}
+[9.148551] (-) EventReactorShutdown: {}

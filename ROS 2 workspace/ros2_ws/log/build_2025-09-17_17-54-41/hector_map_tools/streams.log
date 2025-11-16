@@ -1,0 +1,33 @@
+[0.114s] Invoking command in '/home/mohammed/ros2_ws/build/hector_map_tools': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_map_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_map_tools
+[1.599s] -- The C compiler identification is GNU 11.4.0
+[2.467s] -- The CXX compiler identification is GNU 11.4.0
+[2.513s] -- Detecting C compiler ABI info
+[3.004s] -- Detecting C compiler ABI info - done
+[3.035s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.038s] -- Detecting C compile features
+[3.041s] -- Detecting C compile features - done
+[3.064s] -- Detecting CXX compiler ABI info
+[3.716s] -- Detecting CXX compiler ABI info - done
+[3.788s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.789s] -- Detecting CXX compile features
+[3.792s] -- Detecting CXX compile features - done
+[4.007s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[4.008s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[4.009s]   asked CMake to find a package configuration file provided by "catkin", but
+[4.010s]   CMake did not find one.
+[4.011s] 
+[4.012s]   Could not find a package configuration file provided by "catkin" with any
+[4.013s]   of the following names:
+[4.014s] 
+[4.016s]     catkinConfig.cmake
+[4.025s]     catkin-config.cmake
+[4.026s] 
+[4.027s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[4.028s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[4.029s]   provides a separate development package or SDK, be sure it has been
+[4.030s]   installed.
+[4.031s] 
+[4.033s] [0m
+[4.035s] -- Configuring incomplete, errors occurred!
+[4.036s] See also "/home/mohammed/ros2_ws/build/hector_map_tools/CMakeFiles/CMakeOutput.log".
+[4.039s] Invoked command in '/home/mohammed/ros2_ws/build/hector_map_tools' returned '1': /usr/bin/cmake /home/mohammed/ros2_ws/src/hector_slam/hector_map_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_map_tools

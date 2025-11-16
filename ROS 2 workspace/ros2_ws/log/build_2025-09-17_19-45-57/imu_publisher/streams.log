@@ -1,0 +1,37 @@
+[2.782s] Invoking command in '/home/mohammed/ros2_ws/src/imu_publisher': PYTHONPATH=/home/mohammed/ros2_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_publisher build --build-base /home/mohammed/ros2_ws/build/imu_publisher/build install --record /home/mohammed/ros2_ws/build/imu_publisher/install.log --single-version-externally-managed install_data
+[3.878s] running egg_info
+[3.878s] creating ../../build/imu_publisher/imu_publisher.egg-info
+[3.879s] writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO
+[3.880s] writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt
+[3.881s] writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt
+[3.882s] writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt
+[3.882s] writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt
+[3.883s] writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[3.891s] reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[3.895s] writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[3.896s] running build
+[3.896s] running build_py
+[3.897s] creating /home/mohammed/ros2_ws/build/imu_publisher/build
+[3.897s] creating /home/mohammed/ros2_ws/build/imu_publisher/build/lib
+[3.898s] creating /home/mohammed/ros2_ws/build/imu_publisher/build/lib/imu_publisher
+[3.898s] copying imu_publisher/imu_node.py -> /home/mohammed/ros2_ws/build/imu_publisher/build/lib/imu_publisher
+[3.899s] copying imu_publisher/__init__.py -> /home/mohammed/ros2_ws/build/imu_publisher/build/lib/imu_publisher
+[3.899s] running install
+[3.900s] running install_lib
+[3.904s] creating /home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[3.904s] copying /home/mohammed/ros2_ws/build/imu_publisher/build/lib/imu_publisher/imu_node.py -> /home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[3.905s] copying /home/mohammed/ros2_ws/build/imu_publisher/build/lib/imu_publisher/__init__.py -> /home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[3.908s] byte-compiling /home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher/imu_node.py to imu_node.cpython-310.pyc
+[3.910s] byte-compiling /home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher/__init__.py to __init__.cpython-310.pyc
+[3.911s] running install_data
+[3.912s] creating /home/mohammed/ros2_ws/install/imu_publisher/share/ament_index
+[3.912s] creating /home/mohammed/ros2_ws/install/imu_publisher/share/ament_index/resource_index
+[3.913s] creating /home/mohammed/ros2_ws/install/imu_publisher/share/ament_index/resource_index/packages
+[3.913s] copying resource/imu_publisher -> /home/mohammed/ros2_ws/install/imu_publisher/share/ament_index/resource_index/packages
+[3.914s] copying package.xml -> /home/mohammed/ros2_ws/install/imu_publisher/share/imu_publisher
+[3.914s] running install_egg_info
+[3.921s] Copying ../../build/imu_publisher/imu_publisher.egg-info to /home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher-0.0.0-py3.10.egg-info
+[3.927s] running install_scripts
+[4.009s] Installing imu_node script to /home/mohammed/ros2_ws/install/imu_publisher/lib/imu_publisher
+[4.010s] writing list of installed files to '/home/mohammed/ros2_ws/build/imu_publisher/install.log'
+[4.133s] Invoked command in '/home/mohammed/ros2_ws/src/imu_publisher' returned '0': PYTHONPATH=/home/mohammed/ros2_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammed/ros2_ws/install/imu_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_publisher build --build-base /home/mohammed/ros2_ws/build/imu_publisher/build install --record /home/mohammed/ros2_ws/build/imu_publisher/install.log --single-version-externally-managed install_data

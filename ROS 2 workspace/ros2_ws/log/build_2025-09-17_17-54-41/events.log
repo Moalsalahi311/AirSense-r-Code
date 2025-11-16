@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.001488] (hector_imu_attitude_to_tf) JobQueued: {'identifier': 'hector_imu_attitude_to_tf', 'dependencies': OrderedDict()}
+[0.001718] (hector_imu_tools) JobQueued: {'identifier': 'hector_imu_tools', 'dependencies': OrderedDict()}
+[0.001999] (hector_map_tools) JobQueued: {'identifier': 'hector_map_tools', 'dependencies': OrderedDict()}
+[0.002156] (hector_mapping) JobQueued: {'identifier': 'hector_mapping', 'dependencies': OrderedDict()}
+[0.002242] (hector_marker_drawing) JobQueued: {'identifier': 'hector_marker_drawing', 'dependencies': OrderedDict()}
+[0.002322] (hector_nav_msgs) JobQueued: {'identifier': 'hector_nav_msgs', 'dependencies': OrderedDict()}
+[0.002398] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002472] (hector_compressed_map_transport) JobQueued: {'identifier': 'hector_compressed_map_transport', 'dependencies': OrderedDict([('hector_map_tools', '/home/mohammed/ros2_ws/install/hector_map_tools')])}
+[0.002601] (hector_geotiff) JobQueued: {'identifier': 'hector_geotiff', 'dependencies': OrderedDict([('hector_map_tools', '/home/mohammed/ros2_ws/install/hector_map_tools'), ('hector_nav_msgs', '/home/mohammed/ros2_ws/install/hector_nav_msgs')])}
+[0.002685] (hector_map_server) JobQueued: {'identifier': 'hector_map_server', 'dependencies': OrderedDict([('hector_map_tools', '/home/mohammed/ros2_ws/install/hector_map_tools'), ('hector_marker_drawing', '/home/mohammed/ros2_ws/install/hector_marker_drawing'), ('hector_nav_msgs', '/home/mohammed/ros2_ws/install/hector_nav_msgs')])}
+[0.002816] (hector_trajectory_server) JobQueued: {'identifier': 'hector_trajectory_server', 'dependencies': OrderedDict([('hector_map_tools', '/home/mohammed/ros2_ws/install/hector_map_tools'), ('hector_nav_msgs', '/home/mohammed/ros2_ws/install/hector_nav_msgs')])}
+[0.002902] (hector_geotiff_plugins) JobQueued: {'identifier': 'hector_geotiff_plugins', 'dependencies': OrderedDict([('hector_map_tools', '/home/mohammed/ros2_ws/install/hector_map_tools'), ('hector_nav_msgs', '/home/mohammed/ros2_ws/install/hector_nav_msgs'), ('hector_geotiff', '/home/mohammed/ros2_ws/install/hector_geotiff')])}
+[0.002988] (hector_geotiff_launch) JobQueued: {'identifier': 'hector_geotiff_launch', 'dependencies': OrderedDict([('hector_map_tools', '/home/mohammed/ros2_ws/install/hector_map_tools'), ('hector_nav_msgs', '/home/mohammed/ros2_ws/install/hector_nav_msgs'), ('hector_geotiff', '/home/mohammed/ros2_ws/install/hector_geotiff'), ('hector_trajectory_server', '/home/mohammed/ros2_ws/install/hector_trajectory_server'), ('hector_geotiff_plugins', '/home/mohammed/ros2_ws/install/hector_geotiff_plugins')])}
+[0.003083] (hector_slam_launch) JobQueued: {'identifier': 'hector_slam_launch', 'dependencies': OrderedDict([('hector_map_tools', '/home/mohammed/ros2_ws/install/hector_map_tools'), ('hector_mapping', '/home/mohammed/ros2_ws/install/hector_mapping'), ('hector_marker_drawing', '/home/mohammed/ros2_ws/install/hector_marker_drawing'), ('hector_nav_msgs', '/home/mohammed/ros2_ws/install/hector_nav_msgs'), ('hector_geotiff', '/home/mohammed/ros2_ws/install/hector_geotiff'), ('hector_map_server', '/home/mohammed/ros2_ws/install/hector_map_server'), ('hector_trajectory_server', '/home/mohammed/ros2_ws/install/hector_trajectory_server'), ('hector_geotiff_plugins', '/home/mohammed/ros2_ws/install/hector_geotiff_plugins')])}
+[0.003195] (hector_slam) JobQueued: {'identifier': 'hector_slam', 'dependencies': OrderedDict([('hector_imu_attitude_to_tf', '/home/mohammed/ros2_ws/install/hector_imu_attitude_to_tf'), ('hector_map_tools', '/home/mohammed/ros2_ws/install/hector_map_tools'), ('hector_mapping', '/home/mohammed/ros2_ws/install/hector_mapping'), ('hector_marker_drawing', '/home/mohammed/ros2_ws/install/hector_marker_drawing'), ('hector_nav_msgs', '/home/mohammed/ros2_ws/install/hector_nav_msgs'), ('hector_compressed_map_transport', '/home/mohammed/ros2_ws/install/hector_compressed_map_transport'), ('hector_geotiff', '/home/mohammed/ros2_ws/install/hector_geotiff'), ('hector_map_server', '/home/mohammed/ros2_ws/install/hector_map_server'), ('hector_trajectory_server', '/home/mohammed/ros2_ws/install/hector_trajectory_server'), ('hector_geotiff_plugins', '/home/mohammed/ros2_ws/install/hector_geotiff_plugins'), ('hector_geotiff_launch', '/home/mohammed/ros2_ws/install/hector_geotiff_launch'), ('hector_slam_launch', '/home/mohammed/ros2_ws/install/hector_slam_launch')])}
+[0.003373] (hector_map_tools) JobStarted: {'identifier': 'hector_map_tools'}
+[0.046289] (hector_nav_msgs) JobStarted: {'identifier': 'hector_nav_msgs'}
+[0.065740] (hector_marker_drawing) JobStarted: {'identifier': 'hector_marker_drawing'}
+[0.083785] (hector_mapping) JobStarted: {'identifier': 'hector_mapping'}
+[0.097913] (-) TimerEvent: {}
+[0.111567] (hector_map_tools) JobProgress: {'identifier': 'hector_map_tools', 'progress': 'cmake'}
+[0.114930] (hector_map_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/mohammed/ros2_ws/src/hector_slam/hector_map_tools', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_map_tools'], 'cwd': '/home/mohammed/ros2_ws/build/hector_map_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohammed'), ('LC_TIME', 'ar_QA.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mohammed'), ('OLDPWD', '/home/mohammed/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_QA.UTF-8'), ('SYSTEMD_EXEC_PID', '1200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohammed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mohammed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mohammed-desktop:@/tmp/.ICE-unix/1161,unix/mohammed-desktop:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_QA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44c5b05f_d096_46b4_baf5_43a278dcef27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_QA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GF4QC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_QA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_QA.UTF-8'), ('LC_IDENTIFICATION', 'ar_QA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mohammed/ros2_ws/build/hector_map_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_QA.UTF-8'), ('LC_PAPER', 'ar_QA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.132473] (hector_nav_msgs) JobProgress: {'identifier': 'hector_nav_msgs', 'progress': 'cmake'}
+[0.142692] (hector_nav_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/mohammed/ros2_ws/src/hector_slam/hector_nav_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_nav_msgs'], 'cwd': '/home/mohammed/ros2_ws/build/hector_nav_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohammed'), ('LC_TIME', 'ar_QA.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mohammed'), ('OLDPWD', '/home/mohammed/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_QA.UTF-8'), ('SYSTEMD_EXEC_PID', '1200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohammed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mohammed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mohammed-desktop:@/tmp/.ICE-unix/1161,unix/mohammed-desktop:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_QA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44c5b05f_d096_46b4_baf5_43a278dcef27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_QA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GF4QC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_QA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_QA.UTF-8'), ('LC_IDENTIFICATION', 'ar_QA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mohammed/ros2_ws/build/hector_nav_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_QA.UTF-8'), ('LC_PAPER', 'ar_QA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.148055] (hector_marker_drawing) JobProgress: {'identifier': 'hector_marker_drawing', 'progress': 'cmake'}
+[0.152263] (hector_marker_drawing) Command: {'cmd': ['/usr/bin/cmake', '/home/mohammed/ros2_ws/src/hector_slam/hector_marker_drawing', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_marker_drawing'], 'cwd': '/home/mohammed/ros2_ws/build/hector_marker_drawing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohammed'), ('LC_TIME', 'ar_QA.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mohammed'), ('OLDPWD', '/home/mohammed/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_QA.UTF-8'), ('SYSTEMD_EXEC_PID', '1200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohammed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mohammed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mohammed-desktop:@/tmp/.ICE-unix/1161,unix/mohammed-desktop:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_QA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44c5b05f_d096_46b4_baf5_43a278dcef27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_QA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GF4QC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_QA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_QA.UTF-8'), ('LC_IDENTIFICATION', 'ar_QA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mohammed/ros2_ws/build/hector_marker_drawing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_QA.UTF-8'), ('LC_PAPER', 'ar_QA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.171576] (hector_mapping) JobProgress: {'identifier': 'hector_mapping', 'progress': 'cmake'}
+[0.174144] (hector_mapping) Command: {'cmd': ['/usr/bin/cmake', '/home/mohammed/ros2_ws/src/hector_slam/hector_mapping', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/mohammed/ros2_ws/install/hector_mapping'], 'cwd': '/home/mohammed/ros2_ws/build/hector_mapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohammed'), ('LC_TIME', 'ar_QA.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mohammed'), ('OLDPWD', '/home/mohammed/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_QA.UTF-8'), ('SYSTEMD_EXEC_PID', '1200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohammed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mohammed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mohammed-desktop:@/tmp/.ICE-unix/1161,unix/mohammed-desktop:/tmp/.ICE-unix/1161'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_QA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44c5b05f_d096_46b4_baf5_43a278dcef27'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_QA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GF4QC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_QA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_QA.UTF-8'), ('LC_IDENTIFICATION', 'ar_QA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mohammed/ros2_ws/build/hector_mapping'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_QA.UTF-8'), ('LC_PAPER', 'ar_QA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.198289] (-) TimerEvent: {}
+[0.300067] (-) TimerEvent: {}
+[0.401473] (-) TimerEvent: {}
+[0.503111] (-) TimerEvent: {}
+[0.604211] (-) TimerEvent: {}
+[0.705608] (-) TimerEvent: {}
+[0.807588] (-) TimerEvent: {}
+[0.909100] (-) TimerEvent: {}
+[1.011535] (-) TimerEvent: {}
+[1.113414] (-) TimerEvent: {}
+[1.215857] (-) TimerEvent: {}
+[1.317855] (-) TimerEvent: {}
+[1.419565] (-) TimerEvent: {}
+[1.520770] (-) TimerEvent: {}
+[1.600672] (hector_mapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.601698] (hector_map_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.607434] (hector_nav_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.609796] (hector_marker_drawing) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.621289] (-) TimerEvent: {}
+[1.722669] (-) TimerEvent: {}
+[1.823654] (-) TimerEvent: {}
+[1.924786] (-) TimerEvent: {}
+[2.025856] (-) TimerEvent: {}
+[2.126858] (-) TimerEvent: {}
+[2.228160] (-) TimerEvent: {}
+[2.329199] (-) TimerEvent: {}
+[2.430675] (-) TimerEvent: {}
+[2.445109] (hector_marker_drawing) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.456625] (hector_nav_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.464812] (hector_mapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.470192] (hector_map_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.513725] (hector_mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.514433] (hector_marker_drawing) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.515002] (hector_nav_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.515896] (hector_map_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.530868] (-) TimerEvent: {}
+[2.631859] (-) TimerEvent: {}
+[2.733552] (-) TimerEvent: {}
+[2.834929] (-) TimerEvent: {}
+[2.936143] (-) TimerEvent: {}
+[3.004549] (hector_mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.007086] (hector_map_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.012673] (hector_marker_drawing) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.020744] (hector_nav_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.036436] (-) TimerEvent: {}
+[3.037493] (hector_mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.038426] (hector_map_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.039669] (hector_mapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.041356] (hector_map_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.043666] (hector_map_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.044509] (hector_mapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.047538] (hector_marker_drawing) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.048713] (hector_marker_drawing) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.050508] (hector_marker_drawing) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.052526] (hector_nav_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.053982] (hector_nav_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.055637] (hector_nav_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.064190] (hector_mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.065987] (hector_marker_drawing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.066806] (hector_map_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.081746] (hector_nav_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.136725] (-) TimerEvent: {}
+[3.238243] (-) TimerEvent: {}
+[3.339589] (-) TimerEvent: {}
+[3.441407] (-) TimerEvent: {}
+[3.543151] (-) TimerEvent: {}
+[3.644687] (-) TimerEvent: {}
+[3.661350] (hector_nav_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.715191] (hector_marker_drawing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.718467] (hector_map_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.725289] (hector_nav_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.728198] (hector_nav_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.731396] (hector_nav_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.744970] (-) TimerEvent: {}
+[3.763280] (hector_marker_drawing) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.766645] (hector_marker_drawing) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.770179] (hector_marker_drawing) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.772859] (hector_mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.788987] (hector_map_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.791553] (hector_map_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.795043] (hector_map_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.807489] (hector_mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.809753] (hector_mapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.812639] (hector_mapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.845149] (-) TimerEvent: {}
+[3.942784] (hector_marker_drawing) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[3.943731] (hector_marker_drawing) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.944217] (hector_marker_drawing) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[3.944901] (hector_marker_drawing) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.945432] (-) TimerEvent: {}
+[3.945910] (hector_marker_drawing) StderrLine: {'line': b'\n'}
+[3.946382] (hector_marker_drawing) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[3.946773] (hector_marker_drawing) StderrLine: {'line': b'  of the following names:\n'}
+[3.947102] (hector_marker_drawing) StderrLine: {'line': b'\n'}
+[3.947530] (hector_marker_drawing) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[3.947951] (hector_marker_drawing) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[3.948383] (hector_marker_drawing) StderrLine: {'line': b'\n'}
+[3.948882] (hector_marker_drawing) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[3.949438] (hector_marker_drawing) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[3.949940] (hector_marker_drawing) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.950448] (hector_marker_drawing) StderrLine: {'line': b'  installed.\n'}
+[3.950786] (hector_marker_drawing) StderrLine: {'line': b'\n'}
+[3.951093] (hector_marker_drawing) StderrLine: {'line': b'\x1b[0m\n'}
+[3.951436] (hector_marker_drawing) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.951794] (hector_marker_drawing) StdoutLine: {'line': b'See also "/home/mohammed/ros2_ws/build/hector_marker_drawing/CMakeFiles/CMakeOutput.log".\n'}
+[3.962442] (hector_marker_drawing) CommandEnded: {'returncode': 1}
+[3.984187] (hector_nav_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[3.985382] (hector_nav_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.986186] (hector_nav_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[3.986689] (hector_nav_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.987135] (hector_nav_msgs) StderrLine: {'line': b'\n'}
+[3.987683] (hector_nav_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[3.988379] (hector_nav_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[3.989164] (hector_nav_msgs) StderrLine: {'line': b'\n'}
+[3.989857] (hector_nav_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[3.990665] (hector_nav_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[3.991662] (hector_nav_msgs) StderrLine: {'line': b'\n'}
+[3.992401] (hector_nav_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[3.992998] (hector_nav_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[3.993539] (hector_nav_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.994048] (hector_nav_msgs) StderrLine: {'line': b'  installed.\n'}
+[3.994529] (hector_nav_msgs) StderrLine: {'line': b'\n'}
+[3.995155] (hector_nav_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[4.008317] (hector_nav_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.008862] (hector_nav_msgs) StdoutLine: {'line': b'See also "/home/mohammed/ros2_ws/build/hector_nav_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[4.010105] (hector_map_tools) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[4.011066] (hector_map_tools) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.011898] (hector_map_tools) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[4.012741] (hector_map_tools) StderrLine: {'line': b'  CMake did not find one.\n'}
+[4.014121] (hector_map_tools) StderrLine: {'line': b'\n'}
+[4.014840] (hector_map_tools) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[4.015473] (hector_map_tools) StderrLine: {'line': b'  of the following names:\n'}
+[4.016749] (hector_map_tools) StderrLine: {'line': b'\n'}
+[4.018042] (hector_map_tools) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[4.019392] (hector_map_tools) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[4.028925] (hector_map_tools) StderrLine: {'line': b'\n'}
+[4.029524] (hector_map_tools) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[4.030320] (hector_map_tools) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[4.031438] (hector_map_tools) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[4.032344] (hector_map_tools) StderrLine: {'line': b'  installed.\n'}
+[4.033627] (hector_map_tools) StderrLine: {'line': b'\n'}
+[4.035277] (hector_map_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[4.036730] (hector_map_tools) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.038648] (hector_map_tools) StdoutLine: {'line': b'See also "/home/mohammed/ros2_ws/build/hector_map_tools/CMakeFiles/CMakeOutput.log".\n'}
+[4.039759] (hector_nav_msgs) CommandEnded: {'returncode': 1}
+[4.041834] (hector_map_tools) CommandEnded: {'returncode': 1}
+[4.043920] (hector_mapping) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[4.046906] (-) TimerEvent: {}
+[4.049812] (hector_mapping) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.050541] (hector_mapping) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[4.051037] (hector_mapping) StderrLine: {'line': b'  CMake did not find one.\n'}
+[4.053139] (hector_mapping) StderrLine: {'line': b'\n'}
+[4.053932] (hector_mapping) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[4.055842] (hector_mapping) StderrLine: {'line': b'  of the following names:\n'}
+[4.056893] (hector_mapping) StderrLine: {'line': b'\n'}
+[4.057649] (hector_mapping) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[4.058356] (hector_mapping) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[4.060724] (hector_mapping) StderrLine: {'line': b'\n'}
+[4.061691] (hector_mapping) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[4.062182] (hector_mapping) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[4.062858] (hector_mapping) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[4.063522] (hector_mapping) StderrLine: {'line': b'  installed.\n'}
+[4.064073] (hector_mapping) StderrLine: {'line': b'\n'}
+[4.064481] (hector_mapping) StderrLine: {'line': b'\x1b[0m\n'}
+[4.065083] (hector_mapping) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.065869] (hector_mapping) StdoutLine: {'line': b'See also "/home/mohammed/ros2_ws/build/hector_mapping/CMakeFiles/CMakeOutput.log".\n'}
+[4.118203] (hector_marker_drawing) JobEnded: {'identifier': 'hector_marker_drawing', 'rc': 1}
+[4.123372] (hector_map_tools) JobEnded: {'identifier': 'hector_map_tools', 'rc': 'SIGINT'}
+[4.126657] (hector_nav_msgs) JobEnded: {'identifier': 'hector_nav_msgs', 'rc': 'SIGINT'}
+[4.127913] (hector_mapping) JobEnded: {'identifier': 'hector_mapping', 'rc': 'SIGINT'}
+[4.139670] (hector_imu_attitude_to_tf) JobSkipped: {'identifier': 'hector_imu_attitude_to_tf'}
+[4.140120] (hector_imu_tools) JobSkipped: {'identifier': 'hector_imu_tools'}
+[4.140365] (rplidar_ros) JobSkipped: {'identifier': 'rplidar_ros'}
+[4.140600] (hector_compressed_map_transport) JobSkipped: {'identifier': 'hector_compressed_map_transport'}
+[4.140876] (hector_geotiff) JobSkipped: {'identifier': 'hector_geotiff'}
+[4.141022] (hector_map_server) JobSkipped: {'identifier': 'hector_map_server'}
+[4.141132] (hector_trajectory_server) JobSkipped: {'identifier': 'hector_trajectory_server'}
+[4.141239] (hector_geotiff_plugins) JobSkipped: {'identifier': 'hector_geotiff_plugins'}
+[4.141343] (hector_geotiff_launch) JobSkipped: {'identifier': 'hector_geotiff_launch'}
+[4.141449] (hector_slam_launch) JobSkipped: {'identifier': 'hector_slam_launch'}
+[4.141552] (hector_slam) JobSkipped: {'identifier': 'hector_slam'}
+[4.141657] (-) EventReactorShutdown: {}
