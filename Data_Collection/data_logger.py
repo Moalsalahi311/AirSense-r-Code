@@ -88,7 +88,7 @@ def read_pm25():
         pm10_atm = (data[11] << 8) | data[10]
         return pm1_atm, pm25_atm, pm10_atm, 0
     except Exception as e:
-        print(f"⚠️ PM2.5 read error: {e}")
+        print(f"PM2.5 read error: {e}")
         return 0, 0, 0, 1
 
 
@@ -109,7 +109,7 @@ def read_co2():
         ppm_est = max(min(ppm_est, 5000), 350)
         return ppm_est, 0
     except Exception as e:
-        print(f"⚠️ CO₂ read error: {e}")
+        print(f"CO₂ read error: {e}")
         return 0, 1
 
 
@@ -201,7 +201,7 @@ if not os.path.exists(filename):
 room_label = input("Enter room label (e.g., Kitchen, LivingRoom): ")
 run_id = input("Enter run ID (e.g., run_1): ") or "run_1"
 
-print(f"\n✅ Logging started for '{room_label}' [{run_id}] — press Ctrl+C to stop\n")
+print(f"\n Logging started for '{room_label}' [{run_id}] — press Ctrl+C to stop\n")
 
 try:
     while True:
@@ -231,6 +231,6 @@ try:
         time.sleep(5)
 
 except KeyboardInterrupt:
-    print("\n⏹️ Logging stopped by user.")
+    print("\n Logging stopped by user.")
     dht_device.exit()
 
