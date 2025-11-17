@@ -1,5 +1,0 @@
-sensor,n_valid,spikes_mad,spikes_rate,flatline_points
-co2_ppm,825,0,0.0,0
-pm25_ugm3,825,0,0.0,0
-pm10_ugm3,825,0,0.0,0
-pm1_ugm3,825,0,0.0,0
